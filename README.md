@@ -4,6 +4,8 @@
 ![the Brotli size of Rekishi](https://img.badgesize.io/robb0wen/rekishi/master/dist/rekishi.js.svg?compression=brotli)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+<img src="./rekishi.png" alt="Rekishi" width="110" height="120" />
+
 ## What is Rekishi?
 
 Rekishi is a minimal wrapper for the History API that provides additional pub/sub functionality. 
@@ -183,11 +185,13 @@ Handler functions have access to the current state object:
   incoming: {
     path: String,
     hash: String,
+    params: Object,
     data: Object
   },
   outgoing: {
     path: String,
     hash: String,
+    params: Object,
     data: Object
   },
   action: REKISHI_PUSH || REKISHI_POP || REKISHI__HASH || REKISHI_PARAMS || REKISHI_HASHPARAMS || REKISHI_NOCHANGE

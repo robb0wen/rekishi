@@ -4,6 +4,7 @@
   "description": "Rekishi helps you respond to your browser's history",
   "main": "dist/rekishi.js",
   "module": "src/rekishi.js",
+  "icon": "icon.png",
   "scripts": {
     "build": "node rollup.js",
     "build:es5": "node rollup.js --es5"
