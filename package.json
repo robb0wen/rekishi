@@ -1,6 +1,6 @@
 {
   "name": "rekishi",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rekishi helps you respond to your browser's history",
   "main": "dist/rekishi.js",
   "module": "src/rekishi.js",
