@@ -217,12 +217,12 @@ const handleRouteChange = ({ incoming, outgoing, action }) => {
     case REKISHI_POP:
     case REKISHI_PUSH:
       
-      if (incoming.type == 'modal' && outgoing.type == 'page') {
+      if (incoming.data.type == 'modal' && outgoing.data.type == 'page') {
         // AJAX the content from incoming.path
         // set up your modal and inject AJAX content
       }
 
-      if (incoming.type == 'page' && outgoing.type == 'modal') {
+      if (incoming.data.type == 'page' && outgoing.data.type == 'modal') {
         //close your modal and remove the content
       }
 
